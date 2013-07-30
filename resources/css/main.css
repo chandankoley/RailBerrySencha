@@ -1,0 +1,167 @@
+@font-face
+{
+    font-family: 'cookie';
+    src: url(Cookie-Regular.ttf);
+}
+.page-background{
+    background: url(http://demos.paranoida.com/railsberry/images/bg_body.png) repeat 0 0 #f2ede5;
+}
+.twitter-background{
+    background-color: #7E7B77;
+}
+.x-tab-active .x-button-icon{
+    color: #D3204B !important;
+}
+.x-button-icon {
+    color: #000 !important;
+}
+.x-tabbar-dark.x-docked-bottom .x-tab-active {
+    -webkit-box-shadow: 0 0 10px #000 inset, 0 1px 0 #525252 !important;
+    box-shadow : 0 0 10px #000 inset, 0 1px 0 #525252 !important;
+}
+.x-toolbar .x-title{
+    font-family: 'cookie';
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+}
+.cookie-font{
+    font-family: 'cookie';
+}
+.about-heading{
+    width: 160px;
+    margin: 0px auto;
+}
+.about-pic{
+    width: 100%
+}
+.agenda-button{
+    width: 140px;
+    margin: 0px auto;
+}
+.speaker-parent{
+    width: 265px;
+}
+.speaker-picture{
+    width: 100px;
+    -moz-box-shadow: 0 0 10px #777777;
+    -webkit-box-shadow: 0 0 10px #777777;
+    box-shadow: 0 0 10px #777777;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border: 1px solid #cccccc;
+    float: left;
+}
+.speaker-name{
+    font-size: 16px;
+    float: left;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.speaker-type{
+    font-size: 13px;
+    color: grey;
+    margin-left: 10px;
+    float: left;
+    line-height: 5px;
+    font-weight: bold;
+}
+.speaker-time{
+    font-size: 13px;
+    color: grey;
+    margin-left: 10px;
+    float: left;
+    line-height: 20px;
+    font-weight: bold;
+}
+.speaker-arrow{
+    height: 16px;
+    float: right;
+}
+.more-arrow{
+    float: right;
+    width: 18px;
+}
+.more-topic{
+    float: left;
+    font-weight: bold;
+}
+.speaker-details-parent{
+    padding: 10px;
+    border-bottom: 1px solid #b4b0aa;
+    height: 84px;
+}
+.speaker-details-para{
+    padding: 10px;
+}
+.important-topic{
+    color: red;
+    font-weight: bold;
+}
+.admin-site{
+    float: left;
+    margin-left: 10px;
+    width: 100px;
+    font-size: 13px;
+    font-weight: bold;
+    color: grey;
+}
+.about-admin{
+    margin: 0px 10px !important;
+}
+.copy-right{
+    font-size: 12px;
+    color: gray;
+}
+.loading-pic{
+    height: 4.5em;
+    margin-top: 0px;
+    margin: 0px auto;
+    width: 60px;
+
+    overflow: hidden;
+    background-color: #d03136;
+    -webkit-mask-image: url(../images/load.png);
+    -webkit-animation-name: x-loading-spinner-rotate;
+    -webkit-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: easeInOut;
+}
+.loading-text{
+    color: whitesmoke;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.loading-parent{
+    width: 100px;
+    margin: 40% auto;
+    background-color: rgba(25, 22, 22, 0.48);
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}
+.agenda-listitem-parent{
+    height: 36px;
+}
+.agenda-listitem-topic{
+    font-weight: bold;
+}
+.agenda-listitem-by{
+    color: gray;
+    font-weight: bold;
+    float: left;
+}
+.agenda-listitem-by-name{
+    color: rgb(214, 50, 50);
+}
+.agenda-listitem-arrow{
+    height: 14px;
+    position: relative;
+    top: -25px;
+    float: right;
+}
+.sponsor-logo{
+    width: 220px;
+    margin: 0px auto;
+}

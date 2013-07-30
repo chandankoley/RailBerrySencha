@@ -1,0 +1,39 @@
+// list head color
+$base-color: #A29D98;
+
+// header tab color
+$toolbar-base-color : #D52C45;
+
+
+// tab panel color
+$bottom-tab-color : #353535;
+$bottom-tab-icon-color : #D1213B;
+
+
+$active-color : #E2DDD6;
+
+//$tabs-dark : #353535;
+$tabs-dark-active-color : $bottom-tab-icon-color;
+
+
+
+// The following two lines import the default Sencha Touch theme. If you are building 
+// a new theme, remove them and the add your own CSS on top of the base CSS (which
+// is already included in your app.json file).
+@import 'sencha-touch/default';
+@import 'sencha-touch/default/all';
+
+
+// Custom code goes here..
+
+// Examples of using the icon mixin:
+// @include icon('user');
+// iconcls file include
+
+@include icon('twitter2');
+
+// tabbar color dark
+@include sencha-tabbar-ui('dark', $bottom-tab-color,'matte', $base-color);
+
+// toolbar color ui
+@include sencha-toolbar-ui('sub', #7C7975, 'matte');
