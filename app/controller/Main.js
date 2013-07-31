@@ -29,7 +29,18 @@ Ext.define('Test.controller.Main', {
         control: {
             showTwitterData: {
                 activate: function(){
-                    console.log("show twitter data now");
+                    Ext.Ajax.request({
+                        url: 'http://query.yahooapis.com/v1/public/yql?q=%20select%20*%20from%20rss%20where%20url%3D%22https%3A%2F%2Fwww.facebook.com%2Ffeeds%2Fpage.php%3Fformat%3Drss20%26id%3D233254130082808%22',
+                        method: 'GET',
+                        params: {
+                            format: "json",
+                            diagnostics : true
+                        },
+                        callback: function(options, success, response) {
+                            console.log(Ext.decode(response.responseText).query.results);
+                            Ext.getStore('Twitter').setData(Ext.decode(response.responseText).query.results.item);
+                        }
+                    });
                 }  
             },
             agendaListFirst: {

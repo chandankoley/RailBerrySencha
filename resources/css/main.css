@@ -3,6 +3,38 @@
     font-family: 'cookie';
     src: url(Cookie-Regular.ttf);
 }
+.fb-feed{
+    height: 78px;
+}
+.fb-feed .author{
+    font-family: serif;
+    color: rgb(194, 79, 79);
+    float: left;
+}
+.fb-feed .title{
+    font-family: sans;
+    font-size: 14px;
+    float: left;
+    width: 94%;
+}
+.fb-feed .pubDate{
+    font-size: 10px;
+    color: gray;
+    float: right;
+    /*    width: 43%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;*/
+}
+.fb-feed .arrow{
+    height: 16px;
+    position: relative;
+    top: 30px;
+    float: right;
+}
+.x-inner .x-html{
+    padding: 0px;
+}
 .page-background{
     background: url(http://demos.paranoida.com/railsberry/images/bg_body.png) repeat 0 0 #f2ede5;
 }

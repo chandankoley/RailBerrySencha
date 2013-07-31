@@ -30,8 +30,8 @@ Ext.application({
     views: ['Main','About','Agenda','Speaker','More','SpeakerDetails','AboutApplication',
         'Venue','Sponsors','Tweeter','AgendaFirst','AgendaSecond','AgendaDetails'],
     controllers:['Main'],
-    models:['Agenda','Sponsor'],
-    stores:['Agenda','NextAgenda','Sponsor'],
+    models:['Agenda','Sponsor','Twitter'],
+    stores:['Agenda','NextAgenda','Sponsor','Twitter'],
 
     icon: {
         '57': 'resources/icons/Icon.png',
